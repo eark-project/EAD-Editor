@@ -1,0 +1,116 @@
+<ead xmlns="http://ead3.archivists.org/schema/"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://ead3.archivists.org/schema/ ../schemas/ead3.xsd"
+>
+	<control>
+		<recordid>Sample 2222</recordid>
+
+		<filedesc>
+			<titlestmt>
+				<titleproper>GURS RPE Municipalities 1994</titleproper>
+			</titlestmt>
+		</filedesc>
+
+		<maintenancestatus value="new"/>
+		<maintenanceagency>
+			<agencyname>producer</agencyname>
+		</maintenanceagency>
+
+		<maintenancehistory>
+			<maintenanceevent>
+				<eventtype value="created"/>
+				<eventdatetime standarddatetime="2016-07-08T14:23:42-05:00">8 July 2016</eventdatetime>
+				<agenttype value="human"/>
+				<agent>Gregor Završnik</agent>
+				<eventdescription>Manual creation of EAD record based on RODA EAD</eventdescription>
+			</maintenanceevent>
+		</maintenancehistory>
+	</control>
+
+	<archdesc level="subgrp">
+		<did>
+			<unitid>SI AS 1138/2/1/1</unitid>
+
+			<origination label="producer">
+				<corpname>
+					<part>GURS</part>
+				</corpname>
+			</origination>
+
+			<daoset label="Digital Objects" coverage="part">	
+				<dao daotype="derived" coverage="part" actuate="onload" show="embed" linktitle="OBCINE1994 GML dataset" localtype="thumbnail" href="..\Representations\Rep01\D46_GML.gml"/>
+				<dao daotype="derived" coverage="part" actuate="onload" show="embed" linktitle="OBCINE1994 attribute table" localtype="thumbnail" href="..\Representations\Rep01\D46_ATR.csv"/>
+				<dao daotype="derived" coverage="part" actuate="onload" show="embed" linktitle="INSPIRE metadata for OBCINE1994" localtype="thumbnail" href="..\Representations\Rep01\INSPIRE.xml"/>
+			</daoset>	
+			
+			<physdesc>Description geo (INSPIRE: Resource type)</physdesc> 
+
+			<unitdatestructured label="Date of publication" calendar="gregorian">
+				<daterange>
+					<fromdate standarddate="1994">1984</fromdate>
+					<todate standarddate="1994">1994</todate>
+				</daterange>
+			</unitdatestructured>
+
+			<unitdatestructured label="Date of last revision" calendar="gregorian">
+				<daterange>
+					<fromdate standarddate="1994">1994</fromdate>
+					<todate standarddate="1994">1994</todate>
+				</daterange>
+			</unitdatestructured>
+
+			<unitdatestructured label="Date of creation" calendar="gregorian">
+				<daterange>
+					<fromdate standarddate="1994">1994</fromdate>
+					<todate standarddate="1994">1994</todate>
+				</daterange>
+			</unitdatestructured>
+
+			<unittitle>Municipalities 1994 GML</unittitle>
+			
+		</did>
+			
+		<accessrestrict>
+			<p>There are no access restrictions on this geo collection (INSPIRE Limitations on public access)</p>
+		</accessrestrict>
+		
+		<legalstatus>
+			<p>Public Archival Record(s), geo</p>
+		</legalstatus>
+		
+		<odd>
+			<head>Geo Resource Type</head>
+			<p>dataset</p>
+		</odd>
+
+		<odd>
+			<head>Selected list of GEO data (INSPIRE: Spatial resolution)</head>
+			<p>other data about geo</p>
+		</odd>
+		
+		<odd><head>Geo Resource Type</head><p>dataset</p></odd>
+		<odd><head>Lineage</head><p>This dataset was created by manualy digitisting the original cadastre maps in various scales (1:1000, 1:1440 and 1:2880). The whole dataset was created by merging individual units, that were digitised by different authors, since different municipalities had different service providers. The base datasets were created in the period from 1984 to 1994 and were subsequently added to create the final dataset.</p></odd>
+		<odd><head>SpatialResolution</head><p>5000</p></odd>
+		
+		<userestrict>
+			<p>No restriction. © The Surveying and Mapping Authority of the Republic of Slovenia</p>
+		</userestrict>
+
+		<acqinfo>
+			<p>Submission agreement no. (Accession number is <num localtype="Accession number">42/2016</num>) 62513-25/2016/5</p>
+		</acqinfo>
+		
+		<scopecontent>
+			<p>Areas of municipalities digitised for the purpose of establishing an official registry of spatial units. Data are kept in GML format.</p>
+		</scopecontent>
+		
+		<controlaccess>
+			<genreform><part>Spatial data</part></genreform>
+		
+
+		</controlaccess>		
+		
+				
+	</archdesc>
+
+</ead>
